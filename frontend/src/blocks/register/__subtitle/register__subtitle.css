@@ -1,0 +1,15 @@
+.register__subtitle {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.register__subtitle:hover {
+    opacity: 0.6;
+}

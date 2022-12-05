@@ -1,0 +1,10 @@
+.profile__column {
+    margin-left: 30px;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+    .profile__column {
+        margin-left: 0px;
+    }
+}

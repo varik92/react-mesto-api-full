@@ -1,0 +1,11 @@
+.element__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #fff;
+    min-height: 79px;
+    padding: 0 21px 0;
+    white-space: nowrap;
+}

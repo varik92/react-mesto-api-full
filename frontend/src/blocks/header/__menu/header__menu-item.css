@@ -1,0 +1,17 @@
+.header__menu-item {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.header__menu-item:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

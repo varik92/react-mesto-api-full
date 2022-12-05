@@ -1,0 +1,15 @@
+.logo {
+    background-image: url(../../images/logo.svg);
+    width: 142px;
+    height: 33px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 610px) {
+    .logo {
+        width: 104px;
+        height: 24px;
+    }
+}
