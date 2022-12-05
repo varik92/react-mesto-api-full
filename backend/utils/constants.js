@@ -6,6 +6,7 @@ const allowedCors = [
   'https://mesto.front.v92.nomoredomains.club',
   'http://mesto.front.v92.nomoredomains.club',
   'localhost:3000',
+  'http://localhost:3010',
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
