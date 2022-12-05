@@ -38,14 +38,13 @@ export const authorize = (email, password) => {
         })
 };
 
-export const getToken = (token) => {
+export const getToken = () => {
     return fetch(`${baseUrl}/users/me`, {
         method: 'GET',
         credentials: 'include',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`
         },
     })
         .then(res => {
