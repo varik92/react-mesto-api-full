@@ -7,6 +7,7 @@ const allowedCors = [
   'http://mesto.front.v92.nomoredomains.club',
   'localhost:3000',
   'http://localhost:3010',
+  'https://react-mesto-front.vercel.app'
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
