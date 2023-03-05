@@ -1,4 +1,4 @@
-export const baseUrl = 'https://mesto.back.v92.nomoredomains.club'
+export const baseUrl = 'https://react-mesto-api.vercel.app'
 
 export const register = (email, password) => {
     return fetch(`${baseUrl}/signup`, {
